@@ -12,12 +12,6 @@ sudo mv ./Application-Setup-Final-Project/*.php /var/www/html
 sudo mv ./Launch-Setup-Final-Project/*.css /var/www/html
 sudo mv ./Launch-Setup-Final-Project/*.js /var/www/html
 
-sudo mv ./ITMO544-Fall-Application-FinalProject/index.html /var/www/html
-sudo mv ./ITMO544-Fall-Application-FinalProject/*.css /var/www/html
-sudo mv ./ITMO544-Fall-Application-FinalProject/*.js /var/www/html
-sudo mv ./ITMO544-Fall-Application-FinalProject/*.png /var/www/html
-sudo mv ./ITMO544-Fall-Application-FinalProject/*.php /var/www/html
-
 curl -sS https://getcomposer.org/installer | sudo php &> /tmp/getcomposer.txt
 
 sudo php composer.phar require aws/aws-sdk-php &> /tmp/runcomposer.txt
